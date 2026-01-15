@@ -1,0 +1,9 @@
+[8832:28352:0115/140419.156:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[8832:11408:0115/140419.191:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[8832:28352:0115/140419.208:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[8832:28352:0115/140420.933:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[24452:9808:0115/140421.998:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-C36300CAA3E9FE0B9D0B111C60FB73ED will be ignored
+[8832:28352:0115/140425.103:ERROR:device_event_log_impl.cc(196)] [14:04:25.097] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[8832:10772:0115/140425.445:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[8832:28352:0115/143105.269:ERROR:device_event_log_impl.cc(196)] [14:31:05.218] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[8832:28352:0115/153830.791:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
