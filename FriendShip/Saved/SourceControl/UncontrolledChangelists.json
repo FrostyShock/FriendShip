@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Levels/DevMap.umap",
+				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Levels/Sublevels/map1.umap",
+				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Player/BP_PlayerController.uasset",
+				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Blueprints/Pawns/BP_PlayerPawn.uasset",
+				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Levels/GameMode/GM_FriendShip.uasset",
+				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Data/Input/Default/IMC_Default.uasset",
+				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Data/Input/Default/IA_Move.uasset",
+				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Data/Input/Default/IA_Look.uasset",
+				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Levels/Sublevels/map2.umap",
+				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Blueprints/LevelLoading/BP_LevelStreamingOverlap.uasset"
+			]
+		}
+	]
+}
