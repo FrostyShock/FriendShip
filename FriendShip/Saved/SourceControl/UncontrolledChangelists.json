@@ -5,6 +5,22 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Meshes/Boat/collision.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Meshes/Boat/DeckTop.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Meshes/Boat/Hull.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Meshes/Boat/openPBR_shader1.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Meshes/Boat/Stairs.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Levels/DevMap.umap",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Materials/PM_Brown.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Blueprints/Boat/BP_Buoyancy.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Water_Material.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Levels/Sublevels/map2.umap",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Levels/Sublevels/map1.umap",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Blueprints/Pawns/BP_PlayerPawn.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Materials/PM_Transparent.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Materials/Water_Material.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Materials/Water_Material_Masked.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Materials/WaterOpacityMaskFromDepth_Custom.uasset",
 				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Levels/DevMap.umap",
 				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Levels/Sublevels/map1.umap",
 				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Player/BP_PlayerController.uasset",
@@ -15,19 +31,7 @@
 				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Data/Input/Default/IA_Look.uasset",
 				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Levels/Sublevels/map2.umap",
 				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Blueprints/LevelLoading/BP_LevelStreamingOverlap.uasset",
-				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Meshes/Boat/collision.uasset",
-				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Meshes/Boat/DeckTop.uasset",
-				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Meshes/Boat/Hull.uasset",
-				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Meshes/Boat/openPBR_shader1.uasset",
-				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Meshes/Boat/Stairs.uasset",
-				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Levels/DevMap.umap",
-				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Materials/PM_Brown.uasset",
-				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Blueprints/Boat/BP_BoatTest.uasset",
-				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Blueprints/Boat/BP_Buoyancy.uasset",
-				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Water_Material.uasset",
-				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Levels/Sublevels/map2.umap",
-				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Levels/Sublevels/map1.umap",
-				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Blueprints/Pawns/BP_PlayerPawn.uasset"
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Blueprints/Boat/BP_BoatTest.uasset"
 			]
 		}
 	]
