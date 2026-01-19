@@ -19,10 +19,6 @@
 				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Materials/PM_Transparent.uasset",
 				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Materials/Water_Material_Masked.uasset",
 				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Materials/WaterOpacityMaskFromDepth_Custom.uasset",
-				"C:/Games/UE_5.7/Engine/Plugins/Experimental/Water/Content/Materials/PostProcessing/M_UnderWater_PostProcess_Volume.uasset",
-				"C:/Games/UE_5.7/Engine/Plugins/Experimental/Water/Content/Materials/WaterSurface/Water_Material.uasset",
-				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Water_Material.uasset",
-				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Materials/Water_Material.uasset",
 				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Levels/DevMap.umap",
 				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Levels/Sublevels/map1.umap",
 				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Player/BP_PlayerController.uasset",
@@ -33,6 +29,12 @@
 				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Data/Input/Default/IA_Look.uasset",
 				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Levels/Sublevels/map2.umap",
 				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Blueprints/LevelLoading/BP_LevelStreamingOverlap.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Materials/Water_Material.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Blueprints/Interfaces/BPI_PhysicsInteractions.uasset",
+				"C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Experimental/Water/Content/Waves/GerstnerWaves_Ocean1.uasset",
+				"C:/Games/UE_5.7/Engine/Plugins/Experimental/Water/Content/Materials/PostProcessing/M_UnderWater_PostProcess_Volume.uasset",
+				"C:/Games/UE_5.7/Engine/Plugins/Experimental/Water/Content/Materials/WaterSurface/Water_Material.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Water_Material.uasset",
 				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Blueprints/Boat/BP_BoatTest.uasset"
 			]
 		}
