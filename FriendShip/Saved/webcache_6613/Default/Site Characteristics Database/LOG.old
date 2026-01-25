@@ -1,3 +1,6 @@
-2026/01/21-10:35:48.203 8654 Reusing MANIFEST C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\Site Characteristics Database/MANIFEST-000001
-2026/01/21-10:35:48.211 8654 Recovering log #6
-2026/01/21-10:35:48.211 8654 Reusing old log C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\Site Characteristics Database/000006.log 
+2026/01/24-17:12:36.578 9af4 Log #6: 8 ops saved to Table #7 OK
+2026/01/24-17:12:36.583 9af4 Archiving C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\Site Characteristics Database/000006.log: OK
+2026/01/24-17:12:36.584 9af4 Table #4: 6 entries OK
+2026/01/24-17:12:36.584 9af4 Table #7: 8 entries OK
+2026/01/24-17:12:36.586 9af4 Archiving C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\Site Characteristics Database/MANIFEST-000001: OK
+2026/01/24-17:12:36.589 9af4 **** Repaired leveldb C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\Site Characteristics Database; recovered 2 files; 492 bytes. Some data may have been lost. ****
