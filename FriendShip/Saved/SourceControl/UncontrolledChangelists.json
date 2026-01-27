@@ -24,8 +24,6 @@
 				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Blueprints/Components/BPC_Wind.uasset",
 				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Levels/GameMode/GM_FriendShip.uasset",
 				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Blueprints/BP_PhysTest.uasset",
-				"C:/Games/UE_5.7/Engine/Plugins/Experimental/Water/Content/Materials/PostProcessing/M_UnderWater_PostProcess_Volume.uasset",
-				"C:/Games/UE_5.7/Engine/Plugins/Experimental/Water/Content/Materials/WaterSurface/Water_Material.uasset",
 				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Meshes/sail/sailClosed.uasset",
 				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Meshes/sail/sailFull.uasset",
 				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Meshes/sail/sailHalf.uasset",
@@ -42,6 +40,10 @@
 				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Levels/Sublevels/map2.umap",
 				"C:/Users/Chris/Documents/Unreal Projects/FriendShip/Content/Blueprints/LevelLoading/BP_LevelStreamingOverlap.uasset",
 				"C:/Program Files/Epic Games/UE_5.7/Engine/Plugins/Experimental/Water/Content/Waves/GerstnerWaves_Ocean1.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Blueprints/Ocean/WaterBodyOcean_Custom.uasset",
+				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Player/BP_PlayerController.uasset",
+				"C:/Games/UE_5.7/Engine/Plugins/Experimental/Water/Content/Materials/PostProcessing/M_UnderWater_PostProcess_Volume.uasset",
+				"C:/Games/UE_5.7/Engine/Plugins/Experimental/Water/Content/Materials/WaterSurface/Water_Material.uasset",
 				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Art/Water_Material.uasset",
 				"C:/Users/Chris/Documents/GitHub/FriendShip/FriendShip/Content/Blueprints/Boat/BP_BoatTest.uasset"
 			]

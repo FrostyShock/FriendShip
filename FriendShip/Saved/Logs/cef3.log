@@ -1,25 +1,26 @@
-[31748:30500:0124/171236.520:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[31748:30500:0124/171236.531:ERROR:os_crypt_win.cc(100)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
-[31748:26684:0124/171236.547:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[31748:30500:0124/171236.567:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[31748:30500:0124/171238.510:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[31748:26684:0124/171238.511:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[31748:26684:0124/171238.513:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[31748:26684:0124/171238.514:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[31748:26684:0124/171238.516:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[31748:10984:0124/171238.804:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[31748:10984:0124/171238.806:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[26932:15620:0124/171238.876:WARNING:backend_impl.cc(1764)] Destroying invalid entry.
-[22392:24400:0124/171240.291:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-F992983DC9DC8D3F0A862BC859B1207E will be ignored
-[26932:15620:0124/171240.294:WARNING:backend_impl.cc(1764)] Destroying invalid entry.
-[26932:15620:0124/171240.297:ERROR:backend_impl.cc(989)] Critical error found -8
-[26932:15620:0124/171240.297:WARNING:storage_block-inl.h(138)] Failed data load.
-[26932:15620:0124/171240.297:WARNING:storage_block-inl.h(138)] Failed data load.
-[26932:15620:0124/171240.297:ERROR:entry_impl.cc(1029)] No file for c1030006
-[26932:15620:0124/171240.298:WARNING:storage_block-inl.h(138)] Failed data load.
-[26932:15620:0124/171241.000:ERROR:entry_impl.cc(955)] Failed to save user data
-[31748:35272:0124/171243.747:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[31748:32464:0124/171245.387:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\GCM Store\Encryption: IO error: C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\GCM Store\Encryption/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[31748:30500:0124/171245.622:ERROR:device_event_log_impl.cc(196)] [17:12:45.314] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[31748:30500:0124/174440.321:ERROR:device_event_log_impl.cc(196)] [17:44:40.272] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[31748:30500:0124/205445.382:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[25748:12176:0126/200411.658:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[25748:35896:0126/200411.691:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[25748:12176:0126/200411.711:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[25748:12176:0126/200413.425:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[25748:4932:0126/200413.426:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[25748:4932:0126/200413.427:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[25748:4932:0126/200413.429:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[25748:22032:0126/200413.430:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[10884:660:0126/200413.702:WARNING:backend_impl.cc(1543)] Messed up entry found.
+[10884:660:0126/200413.702:ERROR:backend_impl.cc(989)] Critical error found -8
+[25748:4932:0126/200413.703:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[25748:4932:0126/200413.704:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[10884:660:0126/200413.806:WARNING:storage_block-inl.h(138)] Failed data load.
+[22928:8724:0126/200413.865:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-659633E014DCBB2F3F6A409F96BF5FAB will be ignored
+[25748:464:0126/200414.259:WARNING:browser_info.cc(345)] Returning a speculative frame for [7,9]
+[25748:12176:0126/200414.409:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,9]
+[25748:12176:0126/200414.409:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,9]
+[25748:12176:0126/200414.409:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,9]
+[25748:12176:0126/200414.409:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,9]
+[25748:464:0126/200414.412:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,9]
+[25748:12176:0126/200415.509:ERROR:device_event_log_impl.cc(196)] [20:04:15.502] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[25748:21368:0126/200415.549:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\GCM Store\Encryption: IO error: C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\GCM Store\Encryption/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[25748:464:0126/200417.919:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[10940:1248:0126/200620.608:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[10940:1248:0126/200620.608:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[25748:12176:0126/212831.595:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
