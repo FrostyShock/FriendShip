@@ -1,0 +1,28 @@
+[23796:27584:0128/100355.846:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[23796:43748:0128/100355.989:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[23796:27584:0128/100356.059:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[23796:12604:0128/100358.384:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[23796:12604:0128/100358.385:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[23796:12604:0128/100358.385:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[23796:12604:0128/100358.386:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[23796:27584:0128/100358.644:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[23796:27568:0128/100358.870:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[23796:27568:0128/100358.870:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[19292:29224:0128/100359.512:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-E82CE337A111C85AD3BA9187397ED352 will be ignored
+[23796:10352:0128/100401.178:WARNING:browser_info.cc(345)] Returning a speculative frame for [7,9]
+[23796:27584:0128/100402.176:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[23796:27584:0128/100402.176:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[23796:27584:0128/100402.176:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[23796:27584:0128/100402.176:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[23796:10352:0128/100402.179:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[23796:10352:0128/100403.370:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[23796:26616:0128/100403.584:WARNING:leveldb_database.cc(141)] Unable to open C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\GCM Store\Encryption: IO error: C:\Users\Chris\Documents\GitHub\FriendShip\FriendShip\Saved\webcache_6613\Default\GCM Store\Encryption/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[23796:27584:0128/100403.843:ERROR:device_event_log_impl.cc(196)] [10:04:03.515] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[23796:27584:0128/100550.845:ERROR:device_event_log_impl.cc(196)] [10:05:50.833] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[23796:27584:0128/100550.866:ERROR:device_event_log_impl.cc(196)] [10:05:50.857] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+[23796:27584:0128/100550.885:ERROR:device_event_log_impl.cc(196)] [10:05:50.875] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[12820:26604:0128/100612.337:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[12820:26604:0128/100612.338:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[23796:27584:0128/104125.642:ERROR:device_event_log_impl.cc(196)] [10:41:25.629] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[23796:27584:0128/104125.974:ERROR:device_event_log_impl.cc(196)] [10:41:25.648] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+[23796:27584:0128/115614.606:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
