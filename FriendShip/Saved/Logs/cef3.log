@@ -1,8 +1,21 @@
-[27956:13868:0323/211628.070:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[27956:8108:0323/211628.162:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[27956:13868:0323/211628.267:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[24760:9856:0323/211632.673:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-3FB813BF446C24B57923769D0689AD8A will be ignored
-[27956:31112:0323/211634.609:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[27956:13868:0323/211637.190:ERROR:device_event_log_impl.cc(196)] [21:16:37.185] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[27956:13868:0323/222206.203:ERROR:device_event_log_impl.cc(196)] [22:22:05.946] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[27956:13868:0323/235758.848:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[26232:25164:0325/210049.904:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[26232:22284:0325/210049.938:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[26232:25164:0325/210049.960:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[28260:9196:0325/210052.047:WARNING:backend_impl.cc(1764)] Destroying invalid entry.
+[24764:27608:0325/210052.221:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-620E17EB4E624990F08DFB76C6BAAF47 will be ignored
+[26232:26864:0325/210052.635:WARNING:browser_info.cc(345)] Returning a speculative frame for [7,9]
+[26232:25164:0325/210052.741:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,9]
+[26232:25164:0325/210052.741:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,9]
+[26232:25164:0325/210052.741:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,9]
+[26232:25164:0325/210052.741:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,9]
+[26232:26864:0325/210052.743:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,9]
+[26232:26864:0325/210053.135:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[26232:25164:0325/210053.823:ERROR:device_event_log_impl.cc(196)] [21:00:53.821] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[28260:9196:0325/210258.776:ERROR:backend_impl.cc(989)] Critical error found -8
+[28260:9196:0325/210258.776:WARNING:storage_block-inl.h(138)] Failed data load.
+[28260:9196:0325/210258.776:WARNING:storage_block-inl.h(138)] Failed data load.
+[28260:9196:0325/210258.776:ERROR:entry_impl.cc(1029)] No file for c1030004
+[28260:9196:0325/210258.777:WARNING:storage_block-inl.h(138)] Failed data load.
+[26232:25164:0325/214536.069:ERROR:device_event_log_impl.cc(196)] [21:45:36.055] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[26232:25164:0325/230357.907:ERROR:device_event_log_impl.cc(196)] [23:03:57.596] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[26232:25164:0325/230427.224:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
