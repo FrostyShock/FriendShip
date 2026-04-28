@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\FriendShip.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FriendShip.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FriendShipEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\FriendShip">
+      <UniqueIdentifier>{1F00C6F7-0FA1-37F8-9B79-A85F85F8A1D7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FriendShip\BoatActor.cpp">
+      <Filter>Source\FriendShip</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FriendShip\BoatActor.h">
+      <Filter>Source\FriendShip</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FriendShip\BPI_IDSubsystem.cpp">
+      <Filter>Source\FriendShip</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FriendShip\BPI_IDSubsystem.h">
+      <Filter>Source\FriendShip</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\FriendShip\FriendShip.Build.cs">
+      <Filter>Source\FriendShip</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FriendShip\FriendShip.cpp">
+      <Filter>Source\FriendShip</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FriendShip\FriendShip.h">
+      <Filter>Source\FriendShip</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FriendShip\Holdable.cpp">
+      <Filter>Source\FriendShip</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FriendShip\Holdable.h">
+      <Filter>Source\FriendShip</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FriendShip\ID_Registry.cpp">
+      <Filter>Source\FriendShip</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FriendShip\ID_Registry.h">
+      <Filter>Source\FriendShip</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FriendShip\ShovelActor.cpp">
+      <Filter>Source\FriendShip</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FriendShip\ShovelActor.h">
+      <Filter>Source\FriendShip</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FriendShip\SpawnActorsInSubLevel.cpp">
+      <Filter>Source\FriendShip</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FriendShip\SpawnActorsInSubLevel.h">
+      <Filter>Source\FriendShip</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

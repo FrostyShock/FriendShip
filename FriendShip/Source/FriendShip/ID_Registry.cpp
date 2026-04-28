@@ -12,27 +12,36 @@ UID_Registry::UID_Registry()
 {
 }
 
+/* Adds actor to the ID Registry.
+ * Given the specific needs of this project, static mesh root objects are also added to the registry.
+ * Static meshes here are used to grab by the player, update physics states, or change buoyant properties.
+ */
 void UID_Registry::RegisterActor(AActor* Actor)
 {
+	// Validate Actor Interface
 	if (!Actor || !Actor->GetClass()->ImplementsInterface(UBPI_IDSubsystem::StaticClass()))
 	{
 		return;
 	}
-
+	
+	// Test the Actor ID from the Interface against if the ID has a value.
 	const FGuid ActorID = IBPI_IDSubsystem::Execute_GetActorID(Actor);
 	if (!ActorID.IsValid())
 	{
 		return;
 	}
 
+	// Add the Actor to the ActorID Map
 	ActorRegistry.Add(ActorID, Actor);
 
+	// Test if the Actor has a valid Static Mesh component and add that to the same Actor ID Map
 	if (UStaticMeshComponent* MeshComp = IBPI_IDSubsystem::Execute_GetMesh(Actor))
 	{
 		ComponentRegistry.Add(ActorID, MeshComp);
 	}
 }
 
+// Empties map entries for valid actors
 void UID_Registry::UnregisterActor(AActor* Actor)
 {
 	if (!Actor || !Actor->GetClass()->ImplementsInterface(UBPI_IDSubsystem::StaticClass()))
@@ -46,6 +55,7 @@ void UID_Registry::UnregisterActor(AActor* Actor)
 	ComponentRegistry.Remove(ActorID);
 }
 
+// Returns an Actor from the map provided the ID is known, removes the ID if no actor is returned. 
 AActor* UID_Registry::GetActorByID(const FGuid ActorID)
 {
 	if (TWeakObjectPtr<AActor>* Found = ActorRegistry.Find(ActorID))
@@ -60,6 +70,7 @@ AActor* UID_Registry::GetActorByID(const FGuid ActorID)
 	return nullptr;
 }
 
+// Returns the static mesh component associated with an ID if there is one, removes it if not. 
 UStaticMeshComponent* UID_Registry::GetComponentByID(FGuid ActorID)
 {
 	if (TWeakObjectPtr<UStaticMeshComponent>* Found = ComponentRegistry.Find(ActorID))
@@ -75,7 +86,8 @@ UStaticMeshComponent* UID_Registry::GetComponentByID(FGuid ActorID)
 	return nullptr;
 }
 
-
+// Should not be used, generally. This is a fallback of the IBPI IDSubsystem implementation of this function.
+// Much slower and scales poorly, but can be used in the case that you can't rely on the Interface. 
 FGuid UID_Registry::GetIDByActor(AActor* Actor)
 {
 	if (!Actor || !Actor->GetClass()->ImplementsInterface(UBPI_IDSubsystem::StaticClass()))
@@ -85,6 +97,10 @@ FGuid UID_Registry::GetIDByActor(AActor* Actor)
 
 	return IBPI_IDSubsystem::Execute_GetActorID(Actor);
 }
+
+// Used for a test, can be used to seamless swap actors to maintain pointer and ID continuity
+// while swapping the apparent objects. Useful for modularity to keep blueprint implementation minimal.
+// Not useful across level streaming.
 
 bool UID_Registry::SwapActorParams(const FGuid& ActorID1, const FGuid& ActorID2)
 {
@@ -123,6 +139,7 @@ bool UID_Registry::SwapActorParams(const FGuid& ActorID1, const FGuid& ActorID2)
 	return true;
 }
 
+// The main function of the ID Registry - swaps the ID's used by two actors
 bool UID_Registry::SwapActorID(const FGuid& ActorID1, const FGuid& ActorID2)
 {
 	AActor* Actor1 = GetActorByID(ActorID1);

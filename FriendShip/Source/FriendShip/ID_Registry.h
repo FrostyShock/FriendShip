@@ -6,7 +6,10 @@
 #include "UObject/Object.h"
 #include "ID_Registry.generated.h"
 /**
- * 
+ *	This subsystem bridges the hard references needed for the in-game Grab system by weakly referencing pointers internally
+ *	and replacing the references with ID's that can be dynamically allocated to new pointers while abstracting the original
+ *	referencing functions. The purpose of this is to allow actors who need to be swapped out for the level transition to
+ *	seamlessly be updated with minimal code in blueprints while maintaining reference continuity. 
  */
 UCLASS()
 

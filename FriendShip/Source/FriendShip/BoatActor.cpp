@@ -25,9 +25,6 @@ ABoatActor::ABoatActor()
 		}
 	}
 	
-	
-	
-}
 
 void ABoatActor::OnConstruction(const FTransform& Transform)
 {
@@ -55,6 +52,7 @@ void ABoatActor::Tick(float DeltaTime)
 
 }
 
+	// Dynamically sets the pontoon location of the boat based on the bounds of the mesh. 
 void ABoatActor::SetPontoonLocations()
 {
 	FVector HullBoundsMax = FVector(0, 0, 0);
@@ -87,6 +85,7 @@ void ABoatActor::SetPontoonLocations()
 	
 }
 
+	// Used to dynamically sink the ship, accessible in Blueprints for iteration
 void ABoatActor::UpdatePontoonHeight(float increaseAmount)
 {
 	float newPontoonHeight = BuoyancyComponent->BuoyancyData.Pontoons[0].RelativeLocation.Z + increaseAmount;

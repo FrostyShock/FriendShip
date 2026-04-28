@@ -42,7 +42,7 @@ void AHoldable::Tick(float DeltaTime)
 }
 
 
-
+// Similar to the Boat version but has flexibility for small objects that only need one central pontoon.
 void AHoldable::SetPontoonLocations()
 {
 	FVector HullBoundsMax = FVector(0, 0, 0);
@@ -84,7 +84,7 @@ void AHoldable::SetPontoonLocations()
 	
 }
 
-
+// Verifies the creation of the pontoons if they aren't set already in the blueprint, and ensures there is empty data to fill.
 void AHoldable::ConstructBuoyancy()
 {
 	if (BuoyancyComponent == nullptr)
@@ -103,7 +103,7 @@ void AHoldable::ConstructBuoyancy()
 	SetPontoonLocations();
 }
 
-
+// Without rewriting the Unreal Buoyancy component, this is the best way to "disable" the buoyant interaction. 
 void AHoldable::ToggleBuoyancy()
 {
 	if (BuoyancyComponent->BuoyancyData.BuoyancyCoefficient != 0 && BuoyancyComponent != nullptr)

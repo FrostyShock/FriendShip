@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FriendShip",
+			"Path": "..\\Source\\FriendShip.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FriendShipEditor",
+			"Path": "..\\Source\\FriendShipEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

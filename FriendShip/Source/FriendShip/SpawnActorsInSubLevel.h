@@ -26,21 +26,7 @@ public:
 	
 	UFUNCTION(BlueprintCallable, Category = "Spawn Actors in Sublevel")
 	static ULevel* GetSublevelFromWorld(UWorld* World, const FString& SublevelName, bool& bOutSuccess, FString& OutInfoMessage);
-
-	/** Spawn a new actor of the specified class into the named sub‑level. */
-	//UFUNCTION(BlueprintCallable, Category = "Spawn Actors in Sublevel")
-	//static AActor* SpawnActorInSublevel(TSubclassOf<AActor> ActorClass,
-	//	const FString& SublevelName, bool& bOutSuccess, FString& OutInfoMessage);
-
-	/** Move or copy existing actors into the target sub‑level. */
-	//UFUNCTION(BlueprintCallable, Category = "Spawn Actors in Sublevel")
-	//static void MoveOrCopyActorsToSublevel(const TArray<AActor*>& Actors,
-	//	const FString& SublevelName, bool bCopyActor, bool& bOutSuccess, FString& OutInfoMessage);
-
-	/** Runtime helper that changes an actor’s owning level.  Returns true on success. */
-	//UFUNCTION(BlueprintCallable, Category = "Spawn Actors in Sublevel")
-	//static bool ChangeActorLevel(AActor* Actor, const FString& TargetLevelName, FString& OutMsg);
-
+	
 	UFUNCTION(BlueprintCallable, Category = "Spawn Actors in Sublevel")
 	static UWorld* GetWorldFromActor(AActor* Actor, bool& bOutSuccess, FString& OutInfoMessage);
 };
